@@ -22,7 +22,7 @@ public class shooter1 : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space))
         {
            GameObject tmp = Instantiate(bullet,transform.position+new Vector3(dir.x,dir.y,0)*1,Quaternion.identity); //set GameObject tmp til bullet
-            tmp.transform.localRotation = Quaternion.Euler(0, 0, rotationX); //set starter sted for projektil
+            tmp.transform.localRotation = Quaternion.Euler(0, 0, rotationX); //set rotation
             tmp.GetComponent<Rigidbody2D>().velocity = dir * speed*speed * Time.deltaTime;
             
         }

@@ -479,6 +479,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   "d\xF8d": {fileID: 21300000, guid: 64fe36c82f355ca4993d77c0f7c0058e, type: 3}
+  dna: {fileID: 2809498222927696900, guid: a320e4622e6578e4c9817566c489c403, type: 3}
 --- !u!1 &911802182
 GameObject:
   m_ObjectHideFlags: 0
